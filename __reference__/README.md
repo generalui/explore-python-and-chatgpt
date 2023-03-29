@@ -195,29 +195,35 @@ if __name__ == '__main__':
 ## Does it work, though?
 Let's see. If you're familiar with Python, you should be able to create two files from the example above:
 
-- [ ] `NHLAPIExample.py` - This is the source code that we supplied in the initial prompt.
-- [ ] `test-chatgpt-suggestion.py` - This is a file that should exist in the same directory as the `NHLAPIExample.py` file.
+- [ ] `nhl_api.py` - This is the source code that we supplied in the initial prompt.
+- [ ] `test_nhl_api.py` - This is a file that should exist in the same directory as the `nhl_api.py` file.
   - [ ] Note that we replaced the original `import main` line from ChatGPT with `import nhl_api`
   - [ ] We also replaced `main.` with `nhl_api.` to reflect the new import 
 
-Assuming you are running Python from the directory containing these files, you should be able to run:
-
-```sh
-% python3 test-chatgpt-suggestion.py 
-```
-
-Well look at that. Our five tests ran and passed as expected. 🤓
+Assuming you are running Python from the directory containing these files, you should be able to run the original script on its own:
 
 ```
+% python3 nhl_api.py
+
+Let's explore the NHL API with Python 🐍
+
+```
+
+Now let's run the Python script using the code suggested by ChatGPT:
+
+```
+% python3 test_nhl_api.py
 
 Let's explore the NHL API with Python 🐍
 
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.368s
+Ran 5 tests in 0.657s
 
 OK
 
 ```
+
+Well look at that. Our five tests ran and passed as expected. 🤓
 
 Point goes to ChatGPT.
