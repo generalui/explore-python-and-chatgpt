@@ -1,0 +1,12 @@
+{
+  "cSpell.words": [
+    "linspace",
+    "matplotlib",
+    "pyplot",
+    "savefig",
+    "simplejson",
+    "venv"
+  ],
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true
+}
