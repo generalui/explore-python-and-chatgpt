@@ -6,6 +6,8 @@ We wanted to experiment with ChatGPT and see what would happen if we supplied it
 ![](./images/01.png)
 
 ## The initial prompt
+Let's copy and paste the code from `../nhl_api.py` directly below our simple prompt of `Given the following Python code, what are some tests that could be written to verify it works as expected:`
+
 Here is the full prompt - in all its glory:
 
 ```
