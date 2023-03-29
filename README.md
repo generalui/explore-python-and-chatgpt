@@ -9,7 +9,7 @@ This project will explore getting started developing with [Python](https://www.p
 ```sh
 # Verify that you have Python installed on your machine
 % python3 --version
-Python 3.9.6
+Python 3.11.1
 
 # Create a new virtual environment for the project
 % python3 -m venv .venv
@@ -41,4 +41,29 @@ Python 3.9.6
 (.venv) % pip install -r requirements.txt
 ```
 
-That's it! Now, if you re-run the program - with or without the debugger - your Python script should have executed.
+That's it! Now you should be able to execute your Python scripts 🤓
+
+Here is an example of running [nhl_api.py](nhl_api.py) from your local machine:
+
+```
+(.venv) % python3 nhl_api.py
+
+Let's explore the NHL API with Python 🐍
+
+```
+
+
+Here is an example of running [test_nhl_api.py](test_nhl_api.py) from your local 
+
+```
+(.venv) % python3 test_nhl_api.py
+
+Let's explore the NHL API with Python 🐍
+
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.445s
+
+OK
+
+```
