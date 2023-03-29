@@ -135,7 +135,7 @@ In this example, ChatGPT opted to show us how to write simple `assert` statement
 
 
 ## What would those tests look like written in...%#@%#%@
-In my limited adventures with Python, I remembered that several projects used `pytest` for unit testing. 
+In my adventures with Python, I've worked on several projects that used `pytest` for unit testing. 
 
 What would these tests look like written in `pytest`?
 
@@ -144,7 +144,7 @@ Well, turns out autocomplete decided I didn't want to ask about `pytest` - and i
 ![](./images/04.png)
 
 
-Da fuck? I half-expected ChatGPT to wonder if I had suffered a stroke.
+Uhhhhh...what? I pictured ChatGPT momentarily stunned and shaking its head in disappointment.
 
 Much to my surprise, ChatGPT politely told me it was unsure of what I meant by "purest" - and correctly suggested that if I wanted to write basic unit tests using pure Python, the following code might be useful.
 
