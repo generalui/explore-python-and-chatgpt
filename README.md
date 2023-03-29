@@ -53,7 +53,7 @@ Let's explore the NHL API with Python 🐍
 ```
 
 
-Here is an example of running [test_nhl_api.py](test_nhl_api.py) from your local 
+Here is an example of running [test_nhl_api.py](test_nhl_api.py) from your local machine:
 
 ```
 (.venv) % python3 test_nhl_api.py
